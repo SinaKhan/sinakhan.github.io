@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>yourname</title>
+    <title>Sina Khanmohammadi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="media/css/academicons.min.css"/>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+</style>
+
 </head>
 <body>
     <div id="loading">
@@ -21,106 +51,243 @@
     <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
         <table>
             <tr>
-                <td id="logo">yourname.</td>
+                <td id="logo">Sina Khanmohammadi</td>
                 <td id="navigation">
-                    <a href="#work">work</a>
-                    <a href="#bio">about</a>
-                    <a href="">blog</a>
-                    <a href="#contact">contact</a>
+                    <a href="#bio">About</a>
+                    <a href="#research">Research</a>
+                    <a href="#teaching">Teaching</a>
+                    <a href="#service">Service</a>
+                    <a href="#contact">Contact</a>
                 </td>
             </tr>
         </table>
     </header>
+ 
     <table id="top_part">
         <tr>
             <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
-                <h1>this is where you put your about or tagline</h1>
-                <button class="btn_one">Hire Me</button><br>
+                <h1>A systems scientist interested in how the brain functions!</h1>
                 <table>
                     <tr>
-                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-medium"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://scholar.google.com/citations?user=K6sMFj4AAAAJ&hl=en"  target="_blank" class="social"><i class="ai ai-google-scholar"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://publons.com/researcher/2136663/sina-khanmohammadi/"  target="_blank" class="social"><i class="ai ai-publons"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://www.researchgate.net/profile/Sina_Khanmohammadi"  target="_blank" class="social"><i class="ai ai-researchgate"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://www.linkedin.com/in/sina-khanmohammadi-43748430"  target="_blank" class="social"><i class="fab fa-linkedin"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://twitter.com/dr_sinakhan"  target="_blank" class="social"><i class="fab fa-twitter"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://instagram.com/dr_sinakhan"  target="_blank" class="social"><i class="fab fa-instagram"></i></a></td>
                     </tr>
                 </table>
             </td>
             <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
         </tr>
     </table>
-    <div id="work">
-        <h1>work</h1>
-        <div id="photos">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549375463-8cbc18ca3f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549309019-a1d77aeae74f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547149666-769b42053e67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547950515-e652d0f50b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1545342084-d03fe58ea023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80">
-        </div>
-    </div>
+
     <div id="bio">
-        <h1>about</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <h1>About</h1>
+
+							<h3>Professional Positions:</h3>
+							<ul>
+								<div style="width:600px;">
+									
+							<div id="container"> <div class="wrap"style="width:250px; left:10%; float:left;">
+							<a href="https://wustl.edu/" target="_blank"> <img src="media/logos/WashU.png"style="width:100px;height:100px;"  alt="DTE" /><a/>
+							<p>Instructor of Record (2020 - Now) <br/> Postdoctoral Associate (2016 - Now) </p></div></div>
+							
+							<div id="container"><div class="wrap"style="width:250px; left:30%; float:left;">
+							<a href="https://www.binghamton.edu/" target="_blank"><img src="media/logos/BU.gif"style="width:100px;height:100px;"  alt="DTE" /><a/>
+							<p>Research Assistant (2013 - 2016) <br/> Instructor of Record (Summer 2016) <br/> Adjunct Lecturer (Fall 2015) </p> </div></div>
+							</div>
+<div style="clear: both;"></div>
+							</ul>
+					
+&nbsp;
+							<h3>Education:</h3>
+							<ul>
+								<div style="width:900px;">
+									
+							<div id="container"> <div class="wrap"style="width:300px; left:0%; float:left;">
+							<a href="https://www.binghamton.edu/" target="_blank"><img src="media/logos/BU.gif"style="width:100px;height:100px;"  alt="DTE" /><a/>
+							<p>Ph.D. in Systems Science (2016) </p> </div></div>
+							
+							<div id="container"><div class="wrap"style="width:300px; left:5%; float:left;">
+							<a href="https://www.herts.ac.uk/" target="_blank"><img src="media/logos/UH.png"style="width:100px;height:100px;"  alt="DTE" /><a/>
+							<p>M.Sc.  in Manufacturing Management (2012)</p> </div></div>
+							
+							<div id="container"><div class="wrap"style="width:300px; left:10%; float:left;">
+							<a href="https://www.tabrizu.ac.ir/en" target="_blank"> <img src="media/logos/UT.jpeg"style="width:100px;height:100px;"  alt="DTE" /><a/>
+							<p>B.Sc. in Computer Science (2010) </p> </div></div>
+							</div>
+<div style="clear: both;"></div>
+							</ul>
+&nbsp;
+
+    <div id="research">
+        <h1>Research</h1>            
+               My work involves developing interpretable data driven methods to understand the underlying principles of brain function and dysfunction. I'm specially interested in applications of data driven methods for diagnosis and prognosis of neurological disorders.  Here are some examples:
+               <ul>
+							<div id="container"> <div class="wrap_L"style="width:300px; left:0%; float:left;">
+							<a href="https://www.sciencedirect.com/science/article/abs/pii/S1388245718311908" target="_blank"><img src="media/photos/BrainInjury.png"style="width:150px;height:130px;"  alt="DTE" /><a/>
+							<p <span style="color:rgba(255, 0, 0, 0.8);text-align:center;">Focal Brain Injury </span> <br>
+						    <span style="color:rgba(0, 0, 0, 0.8);text-align:center;">  I developed a data-driven method to detect the location and severity of brain injury using intrinsic dynamics of the brain captured by EEG. The key contribution here was a new method to characterize the lability of brain regions without using any extrinsic stimulation. </span> </p>
+							</div></div>
+							</ul>
+<br style = "line-height:10;">				
+
+<ul>   
+							<div id="container"> <div class="wrap_L"style="width:300px; left:0%; float:left;">
+							<a href="https://ieeexplore.ieee.org/abstract/document/7927402" target="_blank"><img src="media/photos/BrainSeizure.jpg"style="width:150px;height:130px;"  alt="DTE" /><a/>
+							<p <span style="color:rgba(255, 0, 0, 0.8);text-align:center;">Epilepsy </span> <br>
+						    <span style="color:rgba(0, 0, 0, 0.8);text-align:center;">  I developed a real-time seizure onset detection method by using a statistical procedure to detect changes in the signal variation pattern and checking the persistent of these changes for a certain amount of time. The key contribution here was a new adaptive distance-based change point detector that doesn't need a large dataset for training.  </span> </p>
+							</div></div>
+							
+</ul>
+<br style = "line-height:10;">	
+	<ul>   				
+<div id="container"> <div class="wrap_L"style="width:300px; left:0%; float:left;">
+							<a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417416301440" target="_blank"><img src="media/photos/BrainAneurysm.jpg"style="width:150px;height:130px;"  alt="DTE" /><a/>
+							<p <span style="color:rgba(255, 0, 0, 0.8);text-align:center;">Brain Aneurysm</span> <br>
+						    <span style="color:rgba(0, 0, 0, 0.8);text-align:center;">  I developed an interpretable clinical decision support system that can predict the rupture of brain aneurysm using the characteristics of the dilated blood vessels. The key contribution here was a new algorithm to convert the continuous dataset into a discrete form which is necessary for generating if-then rules for the clinical decision support system.</span> </p>
+							</div></div>   
+							</ul>        
+<br style = "line-height:10;">	
+<p>* For list of publications please refer to my <a href="https://scholar.google.com/citations?user=K6sMFj4AAAAJ&hl=en" target="_blank">Google Scholar Profile</a>.</p>
+						      
+    <div id="teaching">
+	    
+        <h1>Teaching</h1>                
+<h2>@WashU</h2>
+<button class="accordion">• ESE 318	(Engineering Mathematics A) - Online Delivery - F20, S21</button>
+<div class="panel">
+  <p>This course provides an introduction to mathematical concepts that are most likely to be encountered by students in their engineering careers. The concepts include Laplace transforms, matrix algebra, vector analysis, eigenvalues and eigenvectors, vector differential calculus and vector integral calculus in three dimensions.</p>
+</div>
+
+<h2>@BU</h2>
+<button class="accordion">• ISE 261 (Probabilistic Systems I) - Online Delivery - S16</button>
+<div class="panel">
+  <p>This course provides an introduction to probability models and statistical methods most likely to be encountered and used by students in their careers in engineering and the natural sciences. This introduction will emphasize, from the outset, that variation is the source from which all statistical methodology flows. Discussion includes the practical aspects of data collection and descriptive statistics with an introduction to the basic concepts of probability theory and probability distributions, correlation, point estimation, confidence intervals, and test of hypothesis.</p>
+</div>
+
+<button class="accordion">• MIS 323 (Systems Analysis and Specification) - F15                       </button>
+<div class="panel">
+  <p>This course is an introductory undergraduate course in information systems analysis and design. The course will familiarize students with core concepts of systems analysis and design such as System Development Life Cycle (SDLC), feasibility study, requirements modeling, data flow diagrams (DFD), entity-relationship model (ERM), and etc. The course is designed to combine theory and practice of systems analysis and design.</p>
+</div>
+
+<button class="accordion">• MIS 523 (Information Systems Analysis and Specification) - F15 </button>
+<div class="panel">
+  <p>This course is a graduate-level introduction to information system analysis and design. The course will cover three main system development methods of System Development Life Cycle (SDLC), the Agile approach, and object oriented system analysis and design. The course will put a lot of emphasize on applying systems analysis and design techniques using open source software.</p>
+</div>
+
+<p>* Click on the title to see the course description.</p>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
     </div>
-    <div id="contact">
-        <h1>contact</h1>
-            <table>
-                <tr>
-                    <td>
-                        <div id="inner_div">
-                            <table id="inner_table">
-                                <tr>
-                                    <td><i class="fas fa-phone"></i> &nbsp; +1 234 567 8910</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="fas fa-at"></i> &nbsp; yourname@email.com</td>
-                                </tr>
-                                 <tr>
-                                    <td><i class="fas fa-fax"></i> &nbsp; +1 234 567 8910</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="fas fa-map-marker-alt"></i>
-                                    <div id="address">
-                                        Street 123,<br>
-                                        blah blah city,<br>
-                                        blah blah country
-                                    </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a class="social"><i class="fab fa-facebook"></i></a>
-                                        <a class="social"><i class="fab fa-twitter"></i></a>
-                                        <a class="social"><i class="fab fa-instagram"></i></a>
-                                        <a class="social"><i class="fab fa-dribbble"></i></a>
-                                        <a class="social"><i class="fab fa-medium"></i></a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </td>
-                    <td>
-                        <form>
-                            <input type="text" placeholder="name" required>
-                            <input type="email" placeholder="email" required><br>
-                            <textarea placeholder="your message" required rows="5"></textarea><br>
-                            <button class="btn_one">send</button>
-                        </form> 
-                    </td>
-                </tr>
-            </table>
-    </div>
-    <div id="footer">
-        made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
-    </div>
-    <script src="index.js" type="text/javascript"></script>
+
+    <div id="service">
+        <h1>Service</h1>
+ Conferences:      
+							<div id="container"> <div class="wrap"style="width:80px; left:0%; float:left;">
+							<a href="https://www.informs.org/" target="_blank"><img src="media/conferences/INFORMS.jpg"style="width:150px;height:50px;"  alt="DTE" /><a/>
+							</div></div>
+							
+							<div id="container"><div class="wrap"style="width:80px; left:15%; float:left;">
+							<a href="https://complexsystems.mst.edu/" target="_blank"><img src="media/conferences/Complex.jpg"style="width:200px;height:50px;"  alt="DTE" /><a/>
+							</div></div>
+							
+ <br style = "line-height:5;">	
+ Journals:
+ <div id="container"> <div class="wrap"style="width:80px; left:0%; float:left;">
+							<a href="https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine" target="_blank"><img src="media/journals/AIM.jpg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+							
+							<div id="container"><div class="wrap"style="width:80px; left:5%; float:left;">
+							<a href="https://www.journals.elsevier.com/journal-of-air-transport-management" target="_blank"><img src="media/journals/ATM.jpeg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+							
+														<div id="container"><div class="wrap"style="width:80px; left:10%; float:left;">
+							<a href="https://www.springer.com/journal/357" target="_blank"><img src="media/journals/Classification.jpg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+							
+														<div id="container"><div class="wrap"style="width:80px; left:15%; float:left;">
+							<a href="https://www.hindawi.com/journals/complexity/" target="_blank"><img src="media/journals/Complexity.jpg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+							
+														<div id="container"><div class="wrap"style="width:80px; left:20%; float:left;">
+							<a href="https://journals.sagepub.com/home/jhi" target="_blank"><img src="media/journals/HIJ.jpeg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+							
+														<div id="container"><div class="wrap"style="width:80px; left:25%; float:left;">
+							<a href="https://ieeeaccess.ieee.org/" target="_blank"><img src="media/journals/IEEE Access.jpg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+							
+														<div id="container"><div class="wrap"style="width:80px; left:30%; float:left;">
+							<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10" target="_blank"><img src="media/journals/IEEE BE.jpg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+						
+ <br style = "line-height:10;">	
+ 														<div id="container"><div class="wrap"style="width:80px; left:0%; float:left;">
+							<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020" target="_blank"><img src="media/journals/IEEE BHI.jpg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+  <div id="container"> <div class="wrap"style="width:80px; left:5%; float:left;">
+							<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19" target="_blank"><img src="media/journals/IEEE IM.jpg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+							
+							<div id="container"><div class="wrap"style="width:80px; left:10%; float:left;">
+							<a href="https://www.worldscientific.com/worldscinet/ijitdm" target="_blank"><img src="media/journals/ITDM.jpg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+							
+														<div id="container"><div class="wrap"style="width:80px; left:15%; float:left;">
+							<a href="https://www.journals.elsevier.com/neuroscience" target="_blank"><img src="media/journals/Neuro.jpeg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+							
+														<div id="container"><div class="wrap"style="width:80px; left:20%; float:left;">
+							<a href="https://journals.plos.org/plosone/" target="_blank"><img src="media/journals/PLOSONE.jpg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+							
+														<div id="container"><div class="wrap"style="width:80px; left:25%; float:left;">
+							<a href="https://academic.oup.com/comjnl" target="_blank"><img src="media/journals/TCJ.jpeg"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+							
+														<div id="container"><div class="wrap"style="width:80px; left:30%; float:left;">
+							<a href="https://www.journals.elsevier.com/transportation-research-part-c-emerging-technologies" target="_blank"><img src="media/journals/TrasnportC.png"style="width:100px;height:150px;"  alt="DTE" /><a/>
+							</div></div>
+
+<br style = "line-height:5;">		
+			
+<div id="contact">
+<h1>Contact</h1>
+<i class="fas fa-at"></i>
+<div id="address">
+s.khanmohammadi AT wustl DOT edu<br>
+</div>
+<i class="fas fa-map-marker-alt"></i>
+<div id="address">
+Department of Electrical & Systems Engineering,<br>
+Washington University in St. Louis,<br>
+One Brookings Drive,<br>
+P.O. Box 1042,<br>
+St. Louis, MO-63130
+</div>
+</div>
+
+
+<script src="index.js" type="text/javascript"></script>
 </body>
+</div>
 </html>
