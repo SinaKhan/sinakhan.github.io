@@ -460,7 +460,7 @@ button:focus {
 }
 .wrap_L img {
     display:block;
-    width:300px;
+    width:1000px;
     height:200px;
     margin:5px;
     -webkit-transition:opacity 0.26s ease-out;
