@@ -453,14 +453,14 @@ button:focus {
     width:100%;
     font-size:15px;
     line-height:20px;
-    margin-top:-30px;
+    margin-top:0px;
     z-index:3;
     background:rgba(255,255,255, 0);
     transition:.1s;
 }
 .wrap_L img {
     display:block;
-    width:1000px;
+    width:500px;
     height:200px;
     margin:5px;
     -webkit-transition:opacity 0.26s ease-out;
