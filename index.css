@@ -462,7 +462,7 @@ button:focus {
     display:block;
     width:500px;
     height:200px;
-    margin:0px;
+    margin:5px;
     -webkit-transition:opacity 0.26s ease-out;
     -moz-transition:opacity 0.26s ease-out;
     -ms-transition:opacity 0.26s ease-out;
