@@ -446,14 +446,14 @@ button:focus {
 .wrap_L p{
     position:absolute;
     opacity:0;
-    top:30%;
+    top:0%;
     left:100%;
     padding:5px;
     text-align:center;
     width:100%;
     font-size:15px;
     line-height:20px;
-    margin-top:0px;
+    margin-top:-30px;
     z-index:3;
     background:rgba(255,255,255, 0);
     transition:.1s;
