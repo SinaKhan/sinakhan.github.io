@@ -446,9 +446,9 @@ button:focus {
 .wrap_L p{
     position:absolute;
     opacity:0;
-    top:0%;
+    top:30%;
     left:100%;
-    padding:5px;
+    padding:0px;
     text-align:center;
     width:100%;
     font-size:15px;
