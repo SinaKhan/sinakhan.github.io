@@ -448,11 +448,11 @@ button:focus {
     opacity:0;
     top:30%;
     left:100%;
-    padding:0px;
+    padding:5px;
     text-align:center;
     width:100%;
     font-size:15px;
-    line-height:20px;
+    line-height:30px;
     margin-top:-30px;
     z-index:3;
     background:rgba(255,255,255, 0);
